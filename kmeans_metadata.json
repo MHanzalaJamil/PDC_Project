@@ -1,0 +1,15 @@
+{
+    "rows": 1094716,
+    "features": 6,
+    "dtype": "float32",
+    "feature_order": [
+        "X",
+        "Y",
+        "Z",
+        "Plx",
+        "pmRA",
+        "pmDE"
+    ],
+    "normalization": "Z-score",
+    "K": 6
+}
