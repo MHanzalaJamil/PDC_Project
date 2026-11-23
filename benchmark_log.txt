@@ -1,0 +1,735 @@
+========================================
+Sequential | MPI=1 | OMP=1 | Run=1
+========================================
+Dataset loaded: 1094716 records x 6 features
+Initial centroids loaded.
+
+========== SEQUENTIAL K-MEANS ==========
+Records          : 1094716
+Features         : 6
+Clusters (K)     : 6
+Iterations       : 31
+Tolerance        : 0.000100
+Execution Time   : 0.312556 seconds
+
+Cluster sizes:
+Cluster 0: 279729
+Cluster 1: 222962
+Cluster 2: 11240
+Cluster 3: 290195
+Cluster 4: 13882
+Cluster 5: 276708
+
+========================================
+Sequential | MPI=1 | OMP=1 | Run=2
+========================================
+Dataset loaded: 1094716 records x 6 features
+Initial centroids loaded.
+
+========== SEQUENTIAL K-MEANS ==========
+Records          : 1094716
+Features         : 6
+Clusters (K)     : 6
+Iterations       : 31
+Tolerance        : 0.000100
+Execution Time   : 0.316979 seconds
+
+Cluster sizes:
+Cluster 0: 279729
+Cluster 1: 222962
+Cluster 2: 11240
+Cluster 3: 290195
+Cluster 4: 13882
+Cluster 5: 276708
+
+========================================
+Sequential | MPI=1 | OMP=1 | Run=3
+========================================
+Dataset loaded: 1094716 records x 6 features
+Initial centroids loaded.
+
+========== SEQUENTIAL K-MEANS ==========
+Records          : 1094716
+Features         : 6
+Clusters (K)     : 6
+Iterations       : 31
+Tolerance        : 0.000100
+Execution Time   : 0.318026 seconds
+
+Cluster sizes:
+Cluster 0: 279729
+Cluster 1: 222962
+Cluster 2: 11240
+Cluster 3: 290195
+Cluster 4: 13882
+Cluster 5: 276708
+
+========================================
+Sequential | MPI=1 | OMP=1 | Run=4
+========================================
+Dataset loaded: 1094716 records x 6 features
+Initial centroids loaded.
+
+========== SEQUENTIAL K-MEANS ==========
+Records          : 1094716
+Features         : 6
+Clusters (K)     : 6
+Iterations       : 31
+Tolerance        : 0.000100
+Execution Time   : 0.317706 seconds
+
+Cluster sizes:
+Cluster 0: 279729
+Cluster 1: 222962
+Cluster 2: 11240
+Cluster 3: 290195
+Cluster 4: 13882
+Cluster 5: 276708
+
+========================================
+Sequential | MPI=1 | OMP=1 | Run=5
+========================================
+Dataset loaded: 1094716 records x 6 features
+Initial centroids loaded.
+
+========== SEQUENTIAL K-MEANS ==========
+Records          : 1094716
+Features         : 6
+Clusters (K)     : 6
+Iterations       : 31
+Tolerance        : 0.000100
+Execution Time   : 0.321329 seconds
+
+Cluster sizes:
+Cluster 0: 279729
+Cluster 1: 222962
+Cluster 2: 11240
+Cluster 3: 290195
+Cluster 4: 13882
+Cluster 5: 276708
+
+========================================
+Hybrid | MPI=2 | OMP=2 | Run=1
+========================================
+Dataset loaded: 1094716 records x 6 features
+Initial centroids loaded.
+
+========== HYBRID MPI + OPENMP K-MEANS ==========
+Records          : 1094716
+Features         : 6
+Clusters (K)     : 6
+MPI Processes    : 2
+OpenMP Threads   : 2
+Total Workers    : 4
+Iterations       : 31
+Tolerance        : 0.000100
+Execution Time   : 0.180513 seconds
+
+Cluster sizes:
+Cluster 0: 279725
+Cluster 1: 222961
+Cluster 2: 11240
+Cluster 3: 290209
+Cluster 4: 13882
+Cluster 5: 276699
+
+========================================
+Hybrid | MPI=2 | OMP=2 | Run=2
+========================================
+Dataset loaded: 1094716 records x 6 features
+Initial centroids loaded.
+
+========== HYBRID MPI + OPENMP K-MEANS ==========
+Records          : 1094716
+Features         : 6
+Clusters (K)     : 6
+MPI Processes    : 2
+OpenMP Threads   : 2
+Total Workers    : 4
+Iterations       : 31
+Tolerance        : 0.000100
+Execution Time   : 0.174466 seconds
+
+Cluster sizes:
+Cluster 0: 279725
+Cluster 1: 222961
+Cluster 2: 11240
+Cluster 3: 290209
+Cluster 4: 13882
+Cluster 5: 276699
+
+========================================
+Hybrid | MPI=2 | OMP=2 | Run=3
+========================================
+Dataset loaded: 1094716 records x 6 features
+Initial centroids loaded.
+
+========== HYBRID MPI + OPENMP K-MEANS ==========
+Records          : 1094716
+Features         : 6
+Clusters (K)     : 6
+MPI Processes    : 2
+OpenMP Threads   : 2
+Total Workers    : 4
+Iterations       : 31
+Tolerance        : 0.000100
+Execution Time   : 0.187498 seconds
+
+Cluster sizes:
+Cluster 0: 279725
+Cluster 1: 222961
+Cluster 2: 11240
+Cluster 3: 290209
+Cluster 4: 13882
+Cluster 5: 276699
+
+========================================
+Hybrid | MPI=2 | OMP=2 | Run=4
+========================================
+Dataset loaded: 1094716 records x 6 features
+Initial centroids loaded.
+
+========== HYBRID MPI + OPENMP K-MEANS ==========
+Records          : 1094716
+Features         : 6
+Clusters (K)     : 6
+MPI Processes    : 2
+OpenMP Threads   : 2
+Total Workers    : 4
+Iterations       : 31
+Tolerance        : 0.000100
+Execution Time   : 0.177344 seconds
+
+Cluster sizes:
+Cluster 0: 279725
+Cluster 1: 222961
+Cluster 2: 11240
+Cluster 3: 290209
+Cluster 4: 13882
+Cluster 5: 276699
+
+========================================
+Hybrid | MPI=2 | OMP=2 | Run=5
+========================================
+Dataset loaded: 1094716 records x 6 features
+Initial centroids loaded.
+
+========== HYBRID MPI + OPENMP K-MEANS ==========
+Records          : 1094716
+Features         : 6
+Clusters (K)     : 6
+MPI Processes    : 2
+OpenMP Threads   : 2
+Total Workers    : 4
+Iterations       : 31
+Tolerance        : 0.000100
+Execution Time   : 0.158507 seconds
+
+Cluster sizes:
+Cluster 0: 279725
+Cluster 1: 222961
+Cluster 2: 11240
+Cluster 3: 290209
+Cluster 4: 13882
+Cluster 5: 276699
+
+========================================
+Hybrid | MPI=2 | OMP=4 | Run=1
+========================================
+Dataset loaded: 1094716 records x 6 features
+Initial centroids loaded.
+
+========== HYBRID MPI + OPENMP K-MEANS ==========
+Records          : 1094716
+Features         : 6
+Clusters (K)     : 6
+MPI Processes    : 2
+OpenMP Threads   : 4
+Total Workers    : 8
+Iterations       : 30
+Tolerance        : 0.000100
+Execution Time   : 0.129602 seconds
+
+Cluster sizes:
+Cluster 0: 279733
+Cluster 1: 222961
+Cluster 2: 11240
+Cluster 3: 290207
+Cluster 4: 13882
+Cluster 5: 276693
+
+========================================
+Hybrid | MPI=2 | OMP=4 | Run=2
+========================================
+Dataset loaded: 1094716 records x 6 features
+Initial centroids loaded.
+
+========== HYBRID MPI + OPENMP K-MEANS ==========
+Records          : 1094716
+Features         : 6
+Clusters (K)     : 6
+MPI Processes    : 2
+OpenMP Threads   : 4
+Total Workers    : 8
+Iterations       : 30
+Tolerance        : 0.000100
+Execution Time   : 0.140784 seconds
+
+Cluster sizes:
+Cluster 0: 279733
+Cluster 1: 222961
+Cluster 2: 11240
+Cluster 3: 290207
+Cluster 4: 13882
+Cluster 5: 276693
+
+========================================
+Hybrid | MPI=2 | OMP=4 | Run=3
+========================================
+Dataset loaded: 1094716 records x 6 features
+Initial centroids loaded.
+
+========== HYBRID MPI + OPENMP K-MEANS ==========
+Records          : 1094716
+Features         : 6
+Clusters (K)     : 6
+MPI Processes    : 2
+OpenMP Threads   : 4
+Total Workers    : 8
+Iterations       : 30
+Tolerance        : 0.000100
+Execution Time   : 0.125163 seconds
+
+Cluster sizes:
+Cluster 0: 279733
+Cluster 1: 222961
+Cluster 2: 11240
+Cluster 3: 290207
+Cluster 4: 13882
+Cluster 5: 276693
+
+========================================
+Hybrid | MPI=2 | OMP=4 | Run=4
+========================================
+Dataset loaded: 1094716 records x 6 features
+Initial centroids loaded.
+
+========== HYBRID MPI + OPENMP K-MEANS ==========
+Records          : 1094716
+Features         : 6
+Clusters (K)     : 6
+MPI Processes    : 2
+OpenMP Threads   : 4
+Total Workers    : 8
+Iterations       : 30
+Tolerance        : 0.000100
+Execution Time   : 0.130073 seconds
+
+Cluster sizes:
+Cluster 0: 279733
+Cluster 1: 222961
+Cluster 2: 11240
+Cluster 3: 290207
+Cluster 4: 13882
+Cluster 5: 276693
+
+========================================
+Hybrid | MPI=2 | OMP=4 | Run=5
+========================================
+Dataset loaded: 1094716 records x 6 features
+Initial centroids loaded.
+
+========== HYBRID MPI + OPENMP K-MEANS ==========
+Records          : 1094716
+Features         : 6
+Clusters (K)     : 6
+MPI Processes    : 2
+OpenMP Threads   : 4
+Total Workers    : 8
+Iterations       : 30
+Tolerance        : 0.000100
+Execution Time   : 0.130838 seconds
+
+Cluster sizes:
+Cluster 0: 279733
+Cluster 1: 222961
+Cluster 2: 11240
+Cluster 3: 290207
+Cluster 4: 13882
+Cluster 5: 276693
+
+========================================
+Hybrid | MPI=4 | OMP=2 | Run=1
+========================================
+Dataset loaded: 1094716 records x 6 features
+Initial centroids loaded.
+
+========== HYBRID MPI + OPENMP K-MEANS ==========
+Records          : 1094716
+Features         : 6
+Clusters (K)     : 6
+MPI Processes    : 4
+OpenMP Threads   : 2
+Total Workers    : 8
+Iterations       : 30
+Tolerance        : 0.000100
+Execution Time   : 0.084915 seconds
+
+Cluster sizes:
+Cluster 0: 279733
+Cluster 1: 222961
+Cluster 2: 11240
+Cluster 3: 290207
+Cluster 4: 13882
+Cluster 5: 276693
+
+========================================
+Hybrid | MPI=4 | OMP=2 | Run=2
+========================================
+Dataset loaded: 1094716 records x 6 features
+Initial centroids loaded.
+
+========== HYBRID MPI + OPENMP K-MEANS ==========
+Records          : 1094716
+Features         : 6
+Clusters (K)     : 6
+MPI Processes    : 4
+OpenMP Threads   : 2
+Total Workers    : 8
+Iterations       : 30
+Tolerance        : 0.000100
+Execution Time   : 0.120404 seconds
+
+Cluster sizes:
+Cluster 0: 279733
+Cluster 1: 222961
+Cluster 2: 11240
+Cluster 3: 290207
+Cluster 4: 13882
+Cluster 5: 276693
+
+========================================
+Hybrid | MPI=4 | OMP=2 | Run=3
+========================================
+Dataset loaded: 1094716 records x 6 features
+Initial centroids loaded.
+
+========== HYBRID MPI + OPENMP K-MEANS ==========
+Records          : 1094716
+Features         : 6
+Clusters (K)     : 6
+MPI Processes    : 4
+OpenMP Threads   : 2
+Total Workers    : 8
+Iterations       : 30
+Tolerance        : 0.000100
+Execution Time   : 0.098509 seconds
+
+Cluster sizes:
+Cluster 0: 279733
+Cluster 1: 222961
+Cluster 2: 11240
+Cluster 3: 290207
+Cluster 4: 13882
+Cluster 5: 276693
+
+========================================
+Hybrid | MPI=4 | OMP=2 | Run=4
+========================================
+Dataset loaded: 1094716 records x 6 features
+Initial centroids loaded.
+
+========== HYBRID MPI + OPENMP K-MEANS ==========
+Records          : 1094716
+Features         : 6
+Clusters (K)     : 6
+MPI Processes    : 4
+OpenMP Threads   : 2
+Total Workers    : 8
+Iterations       : 30
+Tolerance        : 0.000100
+Execution Time   : 0.106636 seconds
+
+Cluster sizes:
+Cluster 0: 279733
+Cluster 1: 222961
+Cluster 2: 11240
+Cluster 3: 290207
+Cluster 4: 13882
+Cluster 5: 276693
+
+========================================
+Hybrid | MPI=4 | OMP=2 | Run=5
+========================================
+Dataset loaded: 1094716 records x 6 features
+Initial centroids loaded.
+
+========== HYBRID MPI + OPENMP K-MEANS ==========
+Records          : 1094716
+Features         : 6
+Clusters (K)     : 6
+MPI Processes    : 4
+OpenMP Threads   : 2
+Total Workers    : 8
+Iterations       : 30
+Tolerance        : 0.000100
+Execution Time   : 0.079612 seconds
+
+Cluster sizes:
+Cluster 0: 279733
+Cluster 1: 222961
+Cluster 2: 11240
+Cluster 3: 290207
+Cluster 4: 13882
+Cluster 5: 276693
+
+========================================
+Hybrid | MPI=4 | OMP=4 | Run=1
+========================================
+Dataset loaded: 1094716 records x 6 features
+Initial centroids loaded.
+
+========== HYBRID MPI + OPENMP K-MEANS ==========
+Records          : 1094716
+Features         : 6
+Clusters (K)     : 6
+MPI Processes    : 4
+OpenMP Threads   : 4
+Total Workers    : 16
+Iterations       : 30
+Tolerance        : 0.000100
+Execution Time   : 0.084584 seconds
+
+Cluster sizes:
+Cluster 0: 279733
+Cluster 1: 222961
+Cluster 2: 11240
+Cluster 3: 290207
+Cluster 4: 13882
+Cluster 5: 276693
+
+========================================
+Hybrid | MPI=4 | OMP=4 | Run=2
+========================================
+Dataset loaded: 1094716 records x 6 features
+Initial centroids loaded.
+
+========== HYBRID MPI + OPENMP K-MEANS ==========
+Records          : 1094716
+Features         : 6
+Clusters (K)     : 6
+MPI Processes    : 4
+OpenMP Threads   : 4
+Total Workers    : 16
+Iterations       : 30
+Tolerance        : 0.000100
+Execution Time   : 0.085845 seconds
+
+Cluster sizes:
+Cluster 0: 279733
+Cluster 1: 222961
+Cluster 2: 11240
+Cluster 3: 290207
+Cluster 4: 13882
+Cluster 5: 276693
+
+========================================
+Hybrid | MPI=4 | OMP=4 | Run=3
+========================================
+Dataset loaded: 1094716 records x 6 features
+Initial centroids loaded.
+
+========== HYBRID MPI + OPENMP K-MEANS ==========
+Records          : 1094716
+Features         : 6
+Clusters (K)     : 6
+MPI Processes    : 4
+OpenMP Threads   : 4
+Total Workers    : 16
+Iterations       : 30
+Tolerance        : 0.000100
+Execution Time   : 0.084455 seconds
+
+Cluster sizes:
+Cluster 0: 279733
+Cluster 1: 222961
+Cluster 2: 11240
+Cluster 3: 290207
+Cluster 4: 13882
+Cluster 5: 276693
+
+========================================
+Hybrid | MPI=4 | OMP=4 | Run=4
+========================================
+Dataset loaded: 1094716 records x 6 features
+Initial centroids loaded.
+
+========== HYBRID MPI + OPENMP K-MEANS ==========
+Records          : 1094716
+Features         : 6
+Clusters (K)     : 6
+MPI Processes    : 4
+OpenMP Threads   : 4
+Total Workers    : 16
+Iterations       : 30
+Tolerance        : 0.000100
+Execution Time   : 0.090476 seconds
+
+Cluster sizes:
+Cluster 0: 279733
+Cluster 1: 222961
+Cluster 2: 11240
+Cluster 3: 290207
+Cluster 4: 13882
+Cluster 5: 276693
+
+========================================
+Hybrid | MPI=4 | OMP=4 | Run=5
+========================================
+Dataset loaded: 1094716 records x 6 features
+Initial centroids loaded.
+
+========== HYBRID MPI + OPENMP K-MEANS ==========
+Records          : 1094716
+Features         : 6
+Clusters (K)     : 6
+MPI Processes    : 4
+OpenMP Threads   : 4
+Total Workers    : 16
+Iterations       : 30
+Tolerance        : 0.000100
+Execution Time   : 0.083499 seconds
+
+Cluster sizes:
+Cluster 0: 279733
+Cluster 1: 222961
+Cluster 2: 11240
+Cluster 3: 290207
+Cluster 4: 13882
+Cluster 5: 276693
+
+========================================
+Hybrid | MPI=4 | OMP=8 | Run=1
+========================================
+Dataset loaded: 1094716 records x 6 features
+Initial centroids loaded.
+
+========== HYBRID MPI + OPENMP K-MEANS ==========
+Records          : 1094716
+Features         : 6
+Clusters (K)     : 6
+MPI Processes    : 4
+OpenMP Threads   : 8
+Total Workers    : 32
+Iterations       : 30
+Tolerance        : 0.000100
+Execution Time   : 0.077151 seconds
+
+Cluster sizes:
+Cluster 0: 279731
+Cluster 1: 222961
+Cluster 2: 11240
+Cluster 3: 290202
+Cluster 4: 13882
+Cluster 5: 276700
+
+========================================
+Hybrid | MPI=4 | OMP=8 | Run=2
+========================================
+Dataset loaded: 1094716 records x 6 features
+Initial centroids loaded.
+
+========== HYBRID MPI + OPENMP K-MEANS ==========
+Records          : 1094716
+Features         : 6
+Clusters (K)     : 6
+MPI Processes    : 4
+OpenMP Threads   : 8
+Total Workers    : 32
+Iterations       : 30
+Tolerance        : 0.000100
+Execution Time   : 0.075933 seconds
+
+Cluster sizes:
+Cluster 0: 279731
+Cluster 1: 222961
+Cluster 2: 11240
+Cluster 3: 290202
+Cluster 4: 13882
+Cluster 5: 276700
+
+========================================
+Hybrid | MPI=4 | OMP=8 | Run=3
+========================================
+Dataset loaded: 1094716 records x 6 features
+Initial centroids loaded.
+
+========== HYBRID MPI + OPENMP K-MEANS ==========
+Records          : 1094716
+Features         : 6
+Clusters (K)     : 6
+MPI Processes    : 4
+OpenMP Threads   : 8
+Total Workers    : 32
+Iterations       : 30
+Tolerance        : 0.000100
+Execution Time   : 0.076283 seconds
+
+Cluster sizes:
+Cluster 0: 279731
+Cluster 1: 222961
+Cluster 2: 11240
+Cluster 3: 290202
+Cluster 4: 13882
+Cluster 5: 276700
+
+========================================
+Hybrid | MPI=4 | OMP=8 | Run=4
+========================================
+Dataset loaded: 1094716 records x 6 features
+Initial centroids loaded.
+
+========== HYBRID MPI + OPENMP K-MEANS ==========
+Records          : 1094716
+Features         : 6
+Clusters (K)     : 6
+MPI Processes    : 4
+OpenMP Threads   : 8
+Total Workers    : 32
+Iterations       : 30
+Tolerance        : 0.000100
+Execution Time   : 0.076018 seconds
+
+Cluster sizes:
+Cluster 0: 279731
+Cluster 1: 222961
+Cluster 2: 11240
+Cluster 3: 290202
+Cluster 4: 13882
+Cluster 5: 276700
+
+========================================
+Hybrid | MPI=4 | OMP=8 | Run=5
+========================================
+Dataset loaded: 1094716 records x 6 features
+Initial centroids loaded.
+
+========== HYBRID MPI + OPENMP K-MEANS ==========
+Records          : 1094716
+Features         : 6
+Clusters (K)     : 6
+MPI Processes    : 4
+OpenMP Threads   : 8
+Total Workers    : 32
+Iterations       : 30
+Tolerance        : 0.000100
+Execution Time   : 0.074435 seconds
+
+Cluster sizes:
+Cluster 0: 279731
+Cluster 1: 222961
+Cluster 2: 11240
+Cluster 3: 290202
+Cluster 4: 13882
+Cluster 5: 276700
+
